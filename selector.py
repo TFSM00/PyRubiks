@@ -8,7 +8,7 @@ class Selector():
         # Gets images for the arrows
         self.arrow_left = "assets/arrow_left_white.gif"
         self.arrow_right = "assets/arrow_right_white.gif"
-        self.arrow_up = "assets/arrow_up_white30.gif"
+        self.arrow_up = "assets/arrow_up_white.gif"
         self.arrow_down = "assets/arrow_down_white.gif"
         # Makes images available for use
         screen.addshape(self.arrow_left)
