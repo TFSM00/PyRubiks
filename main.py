@@ -20,6 +20,9 @@ cube.set_face()
 screen.listen()
 screen.onkey(selector.move_up, "Up")
 screen.onkey(selector.move_down, "Down")
+screen.onkey(selector.rotate, "r")
+screen.onkey(selector.move_left, "Left")
+screen.onkey(selector.move_right, "Right")
 
 while True:
     screen.update()

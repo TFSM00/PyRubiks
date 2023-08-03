@@ -19,6 +19,9 @@ class Square(Turtle):
         
 
     def move_to_pos(self, row_index, col_index):
+        """
+        Move square to defined position
+        """
         self.setpos(self.positions[row_index][col_index])
 
         
